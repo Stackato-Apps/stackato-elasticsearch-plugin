@@ -1,4 +1,4 @@
-name: myelasticsearch
+name: elasticsearch
 mem: 512M
 instances: 1
 url: ${name}.${target-base}
