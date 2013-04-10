@@ -1,0 +1,8 @@
+name: myelasticsearch
+mem: 512M
+instances: 1
+url: ${name}.${target-base}
+framework:
+  type: standalone
+  runtime: java  
+command: bin/elasticsearch -f
