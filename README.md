@@ -38,11 +38,11 @@ data. We will go with the most simple example.
       "message" : "Hello, World!"
     }'
 
-I would like you to try running this curl request from your local
+Try running this curl request from your local
 computer. You can use a [Rest client](http://code.google.com/p/rest-client/) if
 you don’t have curl, and there is a cool
 [Chrome extension](https://chrome.google.com/webstore/detail/cokgbflfommojglbmbpenpphppikmonn?hc=search&amp;hcp=main)
-to do this as well. If all went well, you should see a success response:
+to do this as well. If all went well, you should see a successful response:
 
     {"ok":true,"_index":"twitter","_type":"tweet","_id":"1","_version":1}
 
