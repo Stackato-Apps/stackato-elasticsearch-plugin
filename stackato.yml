@@ -4,7 +4,6 @@ instances: 1
 url: ${name}.${target-base}
 framework:
   type: standalone
-  runtime: java  
 services:
   ${name}-data: filesystem
 hooks:
@@ -12,3 +11,5 @@ hooks:
     - mkdir -p $STACKATO_FILESYSTEM/data
     - ln -s $STACKATO_FILESYSTEM/data data
 command: bin/elasticsearch -f
+ignores:
+  - .git
