@@ -1,9 +1,6 @@
 name: elasticsearch
 mem: 512M
 instances: 1
-url: ${name}.${target-base}
-framework:
-  type: standalone
 services:
   ${name}-data: filesystem
 hooks:
