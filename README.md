@@ -25,7 +25,9 @@ ensure you have installed the [Stackato CLI](http://www.activestate.com/stackato
     cd stackato-elasticsearch-plugin/
     stackato push -n
 
-The stackato.yml file will handle the rest.
+After the app is deployed, run:
+
+    stackato map elasticsearch elasticsearch.stackato-xxxx.local
 
 ## Testing ElasticSearch
 
