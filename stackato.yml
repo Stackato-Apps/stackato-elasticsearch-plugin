@@ -1,4 +1,4 @@
-name: elasticsearch
+name: stackato-elasticsearch-plugin
 mem: 512M
 instances: 1
 framework:
