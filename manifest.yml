@@ -1,8 +1,6 @@
 applications:
 - name: stackato-elasticsearch-plugin
-  command: bin/elasticsearch -f
-  framework:
-    name: standalone
+  buildpack: https://github.com/ryandotsmith/null-buildpack.git
   instances: 1
   mem: 512M
   services:
